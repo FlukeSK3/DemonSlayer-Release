@@ -1,0 +1,10 @@
+- Upstream kernel to 4.14.184
+- Remove Magisk dependencies
+- Revert some LZ4 changes
+- Remove OC for CPU and GPU
+- Update WireGuard to v1.0.20200611
+- Checkout touchscreen drivers from begonia-q-oss
+- Set loop.max_part to 16
+- Fix unwanted file blocker
+- Allow TCP in ECN CWR
+- Enabled ECN negotiation by default
