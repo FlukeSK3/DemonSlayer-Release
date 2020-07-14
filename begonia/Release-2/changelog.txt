@@ -1,0 +1,19 @@
+ - Upstream kernel to 4.14.188
+ - Rebase kernel over PE kernel
+ - Set loop.max_part to 7
+ - Switch to Google TCP BBRv2
+ - Switch to fq_coodel
+ - Include tytydraco sched commit from OP7PRO kernel
+ - Switch to PELT load tracking with a 16 ms half-life (previously 32 ms)
+ - Disable useless erratums for Helio G90T
+ - Enable userpsace CNTVCT_EM0 access for vDSO
+ - Update WireGuard to v1.0.20200623
+ - Update to latest simple_lmk version
+ - simple_lmk: Do not flood the log when we're stuck
+ - simple_lmk: Set kthread priority to 7
+ - supress binder_alloc logging
+ - Disable SYN cookies
+ - Disable userspace config access
+ - Disable RT group scheduling
+ - Append begonia SKU to cmdline as needed (For NFC)
+ - Enable F2FS
