@@ -1,0 +1,15 @@
+ - Rename Zenitsu Kernel to DemonSlayer kernel
+ - Upstream kernel to 4.14.193
+ - Remove tytydraco sched improvement
+ - Remove SLMK
+ - Switch back to Google TCP BBRv1
+ - Disable fq_coodel
+ - Update WireGuard to v1.0.20200729
+ - Enable back SYN cookies
+ - Enable back userspace config access
+ - Enable back RT group scheduling
+ - Disable MTK Hybrid scheduler and switch to EAS scheduler
+ - Switch back to PELT load tracking with a 32 ms half-life
+ - Disable F2FS again
+ - Add DriveDroid support
+ - Remove useless Android.mk file inside greybus driver
