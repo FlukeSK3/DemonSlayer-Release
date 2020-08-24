@@ -1,0 +1,3 @@
+- Initial beta Nezuko Release for Android 10 MIUI 11/12 (Beta 1)
+- Compile kernel with Clang 9.0.4
+- Force load connectivity modules

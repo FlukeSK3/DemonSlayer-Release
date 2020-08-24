@@ -1,0 +1,4 @@
+- Nezuko Release (Release 2)
+- Upstream kernel to 4.14.194
+- Remove arter exFAT and switch back to Xiaomi sdfat
+- Add CFW 2 compatibility
